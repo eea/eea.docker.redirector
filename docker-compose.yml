@@ -1,0 +1,7 @@
+redirect:
+  build: .
+  environment:
+    REDIRECT: "http://rod.eionet.europa.eu"
+    APPENDPATH: "true"
+  ports:
+  - "8090:8080"
